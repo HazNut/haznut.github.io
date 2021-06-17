@@ -1,22 +1,45 @@
 body {
     background-color: #CCCCCC;
     font-family: "Cairo";
-    margin-left: 15px;
+    text-align: center;
+    margin: 0;
 }
 
 h1 {
-    line-height: 15px;
-    margin-top: 25px;
+    position: relative;
+    top: 0px;
+    margin: 0 0 0 0;
+    font-size: 56px;
 }
 
 p {
-    max-width: 600px;
+    position: relative;
+    font-size: 24px;
+    width: 75%;
+    margin: 0 auto;
 }
 
-img {
-    margin-right: 10px;
+.footer {
+    position: absolute;
+    bottom: 0;
 }
 
-img:hover {
+footer {
+    background-color: #AAAAAA;
+    bottom: 0;
+    height: 8%;
+    width: 100%;
+    position: absolute;
+}
+
+#linkedin-link {
+    right: 15px;
+}
+
+#github-link {
+    right: 105px;
+}
+
+.footer img:hover {
     opacity: 0.6;
 }
