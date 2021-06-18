@@ -5,6 +5,44 @@ body {
     margin: 0;
 }
 
+nav div {
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    width: 100px;
+    height: 70px;
+    color: white;
+    background-color: darkgrey;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    top: -40px;
+    transition: top;
+    transition-duration: 500ms;
+    overflow:hide;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    position: relative;
+    margin:  0 0 0 -1px;
+    width: 100px;
+    height: 60px;
+    font-size: 18px;
+    background-color: darkgrey;
+    top: -30px;
+    transition: top;
+    transition-duration: 300ms;
+    line-height: 95px;
+    border: 1px solid black;
+    border-top: 0;
+}
+
+nav a:hover {
+    top: -0px;
+}
+
 h1 {
     position: relative;
     top: 0px;
