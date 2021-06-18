@@ -5,36 +5,20 @@ body {
     margin: 0;
 }
 
-nav div {
-    display: inline-block;
-    position: relative;
-    margin: 0;
-    width: 100px;
-    height: 70px;
-    color: white;
-    background-color: darkgrey;
-    border-bottom: 1px solid black;
-    border-left: 1px solid black;
-    top: -40px;
-    transition: top;
-    transition-duration: 500ms;
-    overflow:hide;
-}
-
 nav a {
     text-decoration: none;
     color: #000;
     display: inline-block;
     position: relative;
     margin:  0 0 0 -1px;
-    width: 100px;
-    height: 60px;
-    font-size: 18px;
+    width: 160px;
+    height: 80px;
+    font-size: 24px;
     background-color: darkgrey;
     top: -30px;
     transition: top;
     transition-duration: 300ms;
-    line-height: 95px;
+    line-height: 125px;
     border: 1px solid black;
     border-top: 0;
 }
@@ -47,12 +31,12 @@ h1 {
     position: relative;
     top: 0px;
     margin: 0 0 0 0;
-    font-size: 56px;
+    font-size: 72px;
 }
 
 p {
     position: relative;
-    font-size: 24px;
+    font-size: 28px;
     width: 75%;
     margin: 0 auto;
 }
