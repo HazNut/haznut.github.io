@@ -13,12 +13,12 @@ nav a {
     margin:  0 0 0 -1px;
     width: 160px;
     height: 80px;
-    font-size: 24px;
+    font-size: 28px;
     background-color: darkgrey;
     top: -30px;
     transition: top;
     transition-duration: 300ms;
-    line-height: 125px;
+    line-height: 120px;
     border: 1px solid black;
     border-top: 0;
 }
