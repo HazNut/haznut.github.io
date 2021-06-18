@@ -23,6 +23,11 @@ p {
     position: absolute;
 }
 
+.footer img {
+    transition: opacity;
+    transition-duration: 0.5s;
+}
+
 footer {
     background-color: #AAAAAA;
     bottom: 0;
