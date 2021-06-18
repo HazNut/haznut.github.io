@@ -16,26 +16,24 @@ nav a {
     font-size: 28px;
     background-color: darkgrey;
     top: -30px;
-    transition: top;
-    transition-duration: 300ms;
     line-height: 120px;
-    border: 1px solid black;
-    border-top: 0;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    transition: top 0.3s;
 }
 
 nav a:hover {
-    top: -0px;
+    top: 0;
 }
 
 h1 {
-    position: relative;
     top: 0px;
-    margin: 0 0 0 0;
+    margin: 0 0;
     font-size: 72px;
 }
 
 p {
-    position: relative;
     font-size: 28px;
     width: 75%;
     margin: 0 auto;
@@ -45,11 +43,6 @@ p {
     position: absolute;
 }
 
-.footer img {
-    transition: opacity;
-    transition-duration: 0.5s;
-}
-
 footer {
     background-color: #AAAAAA;
     bottom: 0;
@@ -57,6 +50,11 @@ footer {
     width: 100%;
     position: absolute;
 }
+
+.footer img {
+    transition: opacity 0.5s;
+}
+
 
 #linkedin-link {
     right: 15px;
@@ -68,17 +66,17 @@ footer {
     bottom: 0;
 }
 
-input {
-    transform: scale(2);
-    bottom: 25px;
-    left: 103px;
-}
-
 label {
     bottom: 20px;
     left: 10px;
     resize: none;
     font-size: 18px;
+}
+
+input {
+    transform: scale(2);
+    bottom: 25px;
+    left: 103px;
 }
 
 .footer img:hover {
