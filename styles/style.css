@@ -21,7 +21,6 @@ p {
 
 .footer {
     position: absolute;
-    bottom: 0;
 }
 
 footer {
@@ -34,10 +33,25 @@ footer {
 
 #linkedin-link {
     right: 15px;
+    bottom: 0;
 }
 
 #github-link {
     right: 105px;
+    bottom: 0;
+}
+
+input {
+    transform: scale(2);
+    bottom: 25px;
+    left: 103px;
+}
+
+label {
+    bottom: 20px;
+    left: 10px;
+    resize: none;
+    font-size: 18px;
 }
 
 .footer img:hover {
