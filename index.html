@@ -10,20 +10,15 @@
     <script src="scripts/toggle-mode.js"></script>
 </head>
 
-<body>
+<body onload="changeContent('about')">
     <header>
         <nav>
-            <a id="first" href="">About me</a><a href="">Education</a><a href="">Experience</a><a href="">Hobbies</a>
+            <a href="javascript: changeContent('about');">About me</a><a href="javascript: changeContent('education');">Education</a><a href="javascript: changeContent('experience')">Experience</a><a href="javascript: changeContent('hobbies')">Hobbies</a>
         </nav>
     </header>
     <main>
         <h1>Joe Hazell</h1>
-        <p>I am a focused Computer Science graduate with strong problem-solving skills, a willingness to learn new
-            techniques and
-            a keen interest in software engineering. I am experienced with a range of different programming languages and
-            tools,
-            and have work experience in the IT sector. In my spare time I like to work on personal programming projects,
-            some of which are on my GitHub.</p>
+        <p id="content"></p>
     </main>
     <footer class="footer">
         <a class="footer" id="linkedin-link" href="https://www.linkedin.com/in/joe-hazell-5bb8101b5/" target="_blank"><img src="images/LI-In-Bug.png"
