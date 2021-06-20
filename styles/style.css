@@ -10,7 +10,7 @@ nav a {
     color: #000;
     display: inline-block;
     position: relative;
-    margin:  0 0 0 -1px;
+    margin: 0 0 0 -1px;
     width: 160px;
     height: 80px;
     font-size: 28px;
@@ -28,8 +28,7 @@ nav a:hover {
 }
 
 h1 {
-    top: 0px;
-    margin: 0 0;
+    margin: 0;
     font-size: 72px;
 }
 
@@ -40,45 +39,42 @@ p {
 }
 
 .footer {
-    position: absolute;
+    position: fixed;
 }
 
 footer {
     background-color: #AAAAAA;
     bottom: 0;
-    height: 8%;
+    height: 75px;
     width: 100%;
-    position: absolute;
 }
 
-.footer img {
-    transition: opacity 0.5s;
-}
-
-
-#linkedin-link {
-    right: 15px;
-    bottom: 0;
-}
-
-#github-link {
-    right: 105px;
-    bottom: 0;
-}
-
-label {
+.footer label {
     bottom: 20px;
     left: 10px;
     resize: none;
     font-size: 18px;
 }
 
-input {
+.footer input {
     transform: scale(2);
-    bottom: 25px;
-    left: 103px;
+    bottom: 26px;
+    left: 105px;
+}
+
+.footer img {
+    transition: opacity 0.5s;
+    bottom: 7px;
 }
 
 .footer img:hover {
     opacity: 0.6;
+}
+
+#linkedin-img {
+    right: 15px;
+}
+
+#github-img {
+    right: 105px;
 }
