@@ -6,18 +6,25 @@ function toggleMode() {
     let header = document.getElementsByTagName('h1')[0];
     let text = document.getElementsByTagName('p')[0];
     let footer = document.getElementsByTagName('footer')[0];
+    let navLinks = document.querySelectorAll('nav a');
 
     if (toggleCheckbox.checked) {
         body.style.backgroundColor = '#000000';
         header.style.color = '#AAAAAA';
         text.style.color = '#AAAAAA';
         footer.style.backgroundColor = '#808080';
+        for (var i = 0; i < navLinks.length; i++) {
+            navLinks[i].style.backgroundColor = '#808080';
+        }
     }
     else {
         body.style.backgroundColor = '#CCCCCC';
         header.style.color = '#000000';
         text.style.color = '#000000';
         footer.style.backgroundColor = '#AAAAAA';
+        for (var i = 0; i < navLinks.length; i++) {
+            navLinks[i].style.backgroundColor = '#AAAAAA';
+        }
     }
 }
 
