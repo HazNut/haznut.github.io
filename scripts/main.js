@@ -1,7 +1,6 @@
 // If the dark mode checkbox is ticked/unticked, change between dark mode and light mode
 // by changing the colours of the elements on the page.
 function toggleMode() {
-
     const toggleCheckbox = document.getElementById('toggle-checkbox');
     let body = document.getElementsByTagName('body')[0];
     let header = document.getElementsByTagName('h1')[0];
@@ -20,12 +19,10 @@ function toggleMode() {
         text.style.color = '#000000';
         footer.style.backgroundColor = '#AAAAAA';
     }
-
 }
 
 // The content of the page is changed based on the button clicked on the navbar.
 function changeContent(toShow) {
-
     let content = document.getElementById('content');
 
     if (toShow == 'about') {
@@ -58,6 +55,5 @@ function changeContent(toShow) {
 
     else {
         content.innerHTML = "Get out of dev tools nerd";
-    }
-    
+    } 
 }
