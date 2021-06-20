@@ -86,12 +86,9 @@ function changeContent(toShow) {
     }
 
     for (var i = 0; i < newContent.length; i++) {
-        if (document.getElementById('toggle-checkbox').checked) {
-            newContent[i].style.color = '#AAAAAA';
-        }
-        else {
-            newContent[i].style.color = '#000000';
-        }
         content.appendChild(newContent[i]);
     }
+
+    // Ensures the text style stays the same afterwards (could be in dark or light mode)
+    toggleMode();
 }
